@@ -1,23 +1,25 @@
+body {
+	background: url('../../img/gdd_4-3.png') no-repeat;
+}
+
 #timer {
     width: 445px;
     height: 110px;
     line-height: 110px;
-    top: 210px;
-    right: 0px;
+    top: 650px;
+    left: 0px;
     padding-left: 25px;
     font-size: 90px;
     color: var(--timer-color-alt);
-    background-color: var(--timer-background-alt);
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
 }
 
 #game-details {
-    top: 0;
-    right: 0;
+    top: 450px;
+    left: 0;
     width: 495px;
     height: 1230px;
-    background-color: var(--text-background-alt-transparent);
     padding-top: 15px;
     z-index: -1;
 }
@@ -48,16 +50,16 @@
 
 #runner-details1 {
     display: inline-block;
-    top: 340px;
-    left: 1399px;
+    top: 383px;
+    left: 20px;
 }
 
 #runner-name1 {
     font-size: 46px;
     height: 50px;
     line-height: 50px;
-    padding: 0 20px 0 55px;
-    border-top-right-radius: 5px;
+    padding: 0 20px 0 20px;
+    border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
 }
 

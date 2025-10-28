@@ -1,27 +1,10 @@
 /* Common definitions for game layouts. */
 
 body {
-    background: url('../../img/background.png') no-repeat;
-    background-size: 130%;
-    animation: slide 90s linear infinite;
     width: 1920px;
     height: 1080px;
     margin: 0;
     padding: 0;
-}
-
-@keyframes slide {
-  0%{ background-position: 10% 10%; }
-  10%{ background-position: 0% 20%; }
-  20%{ background-position: 5% 15%; }
-  30%{ background-position: 0% 10%; }
-  40%{ background-position: 5% 20%; }
-  50%{ background-position: 17% 6%; }
-  60%{ background-position: 8% 12%; }
-  70%{ background-position: 0% 10%; }
-  80%{ background-position: 5% 19%; }
-  90%{ background-position: 14% 9%; }
-  100%{ background-position: 10% 10%; }
 }
 
 #event-logo-container {
@@ -69,18 +52,15 @@ body {
     font-family: 'Calibri', monospace;
     font-weight: bold;
     position: absolute;
-    background-color: var(--background);
     color: var(--timer-color);
 }
 
 #timer.timer_stopped {
     color: var(--timer-stopped-color);
-    background-color: var(--timer-stopped-background);
 }
 
 #timer.timer_running {
     color: var(--timer-running-color);
-    background-color: var(--timer-running-background);
     animation-iteration-count: 3;
     animation-name: splash;
     animation-duration: 1s;
@@ -88,13 +68,10 @@ body {
 
 #timer.timer_paused {
     color: var(--timer-paused-color);
-    background-color: var(--timer-paused-background);
 }
 
 #timer.timer_finished {
     color: var(--timer-finished-color);
-    background-color: var(--timer-finished-background);
-    background: linear-gradient(100deg, #a17f1a 0%, #a17f1a 75%, #ffcc22 85%, #a17f1a 95%);
     background-size: 250% 250%;
     animation-iteration-count: 3;
     animation-name: finished;
@@ -103,7 +80,6 @@ body {
 
 #game-details {
     position: absolute;
-    background-color: var(--game-details-background);
     color: var(--game-details-color);
 }
 
@@ -142,12 +118,8 @@ body {
 
 .game-feed {
     position: absolute;
-    background-color: var(--game-feed-chroma-key);
     /*Hide all feeds by default, let individual layouts control which feeds are visible.*/
     display: none;
-    border-color: var(--game-feed-border-color);
-    border-width: 2px;
-    border-style: solid;
     /*Make sure feeds are on the bottom underneath the finish times.*/
     z-index: -1;
 }

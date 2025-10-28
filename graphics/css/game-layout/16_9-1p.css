@@ -1,25 +1,25 @@
+body {
+	background: url('../../img/gdd_16-9.png') no-repeat;
+}
+
 #timer {
     height: 110px;
     line-height: 110px;
-    bottom: 0px;
+    bottom: 52px;
     z-index: 3;
-    left: 240px;
+    right: 50px;
     font-size: 90px;
-    padding: 0 20px;
+    padding: 0 18px;
     color: var(--timer-color-alt);
-    background-color: var(--timer-background-alt);
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
 }
 
 #game-details {
-    background: var(--text-background-alt-transparent);
     width: 1920px;
-    height: 340px;
+    height: 200px;
     bottom: 0;
     left: 0;
     font-size: 30px;
-    padding-left: 238px;
+    padding-left: 380px;
     padding-top: 5px;
 }
 
@@ -27,7 +27,7 @@
     color: var(--timer-color);
     font-size: 75px;
     width: 470px;
-    margin-top: 75px;
+    margin-top: 35px;
 }
 
 .game-detail-container {
@@ -47,8 +47,8 @@
     height: 50px;
     padding-top: 20px;
     line-height: 50px;
-    bottom: 216px;
-    right: 238px;
+    bottom: 580px;
+    left: 20px;
     text-align: right;
     overflow: hidden;
     border-bottom-left-radius: 5px;

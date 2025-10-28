@@ -29,13 +29,11 @@
         "file": "game.html",
         "width": 1920,
         "height": 1080
-      },
-      {
-        "file": "logo.html",
-        "width": 1920,
-        "height": 1080
       }
     ]
+  },
+  "scripts": {
+    "start-nodecg": "node ../../index.js"
   },
   "license": "AGPL-3.0"
 }

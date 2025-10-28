@@ -1,3 +1,7 @@
+body {
+	background: url('../../img/gdd_16-9-2p.png') no-repeat;
+}
+
 #timer {
     height: 110px;
     line-height: 110px;
@@ -5,7 +9,6 @@
     left: 20px;
     font-size: 90px;
     padding: 0 20px;
-    background-color: var(--timer-background-alt);
     color: var(--timer-color-alt);
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -15,7 +18,6 @@
     bottom: 0;
     width: 1920px;
     height: 310px;
-    background-color: var(--text-background-alt-transparent);
     z-index: -1;
 }
 
