@@ -4,7 +4,9 @@
   "description": "GDD layouts.",
   "homepage": "https://github.com/Dregu/gdd-layouts",
   "author": "Dregu",
-  "dependencies": {},
+  "dependencies": {
+    "node-fetch": "2.7.0"
+  },
   "nodecg": {
     "compatibleRange": "^1.0.0",
     "dependencies": [
@@ -27,6 +29,11 @@
       },
       {
         "file": "game.html",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "file": "donations.html",
         "width": 1920,
         "height": 1080
       }
